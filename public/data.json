@@ -1,0 +1,92 @@
+[
+  {
+    "recipe_image": "https://i.ibb.co/fYM6xJt/courageous-astronaut-space-suit-explorers-red-planet-mars-covered-mist-adventure-space-travel-habita.jpg",
+    "recipe_id": 1,
+    "recipe_name": "Chicken Teriyaki",
+    "short_description": "A classic Japanese dish featuring tender chicken in a savory-sweet teriyaki sauce.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/rQJkgKC/close-up-people-eat-healthy-vegetarian-vegan-food-table-425263-3308.jpg",
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "A hearty Italian pasta dish with rich tomato sauce and seasoned ground beef.",
+    "ingredients": [
+      "400 g spaghetti",
+      "500 g ground beef",
+      "1 onion",
+      "2 cloves garlic",
+      "400 g canned tomatoes"
+    ],
+    "preparing_time": "45 min",
+    "calories": "420 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/fQtmQtv/waiter-carries-plate-with-delicacy-portion-meal-8353-10643.jpg",
+    "recipe_id": 3,
+    "recipe_name": "Vegetable Curry",
+    "short_description": "A fragrant and flavorful Indian-inspired curry loaded with assorted vegetables.",
+    "ingredients": [
+      "2 potatoes",
+      "1 carrot",
+      "1 bell pepper",
+      "200 g cauliflower",
+      "200 g peas",
+      "400 ml coconut milk"
+    ],
+    "preparing_time": "40 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/zrYwHBr/high-angle-table-arrangement-with-delicious-food-23-2149617138.jpg",
+    "recipe_id": 4,
+    "recipe_name": "Caprese Salad",
+    "short_description": "A refreshing Italian salad featuring ripe tomatoes, fresh mozzarella, and fragrant basil.",
+    "ingredients": [
+      "3 tomatoes",
+      "200 g fresh mozzarella",
+      "1 bunch fresh basil",
+      "2 tbsp olive oil",
+      "Balsamic glaze (optional)"
+    ],
+    "preparing_time": "15 min",
+    "calories": "180 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/ynrvzzp/tasty-tofu-stir-fry-with-veggies-crispy-tofu-fresh-cilantro-perfect-vegan-meal-healthy-763042-1514.jpg",
+    "recipe_id": 5,
+    "recipe_name": "Chocolate Cake",
+    "short_description": "A decadent chocolate cake with moist layers and creamy frosting.",
+    "ingredients": [
+      "200 g all-purpose flour",
+      "200 g sugar",
+      "100 g cocoa powder",
+      "200 g butter",
+      "4 eggs"
+    ],
+    "preparing_time": "60 min",
+    "calories": "350 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/dGYLg0S/top-view-delicious-meat-soup-with-greens-potatoes-dark-desk-140725-76538.jpg",
+    "recipe_id": 6,
+    "recipe_name": "Greek Salad",
+    "short_description": "A colorful and crisp salad showcasing fresh vegetables, olives, and tangy feta cheese.",
+    "ingredients": [
+      "2 cucumbers",
+      "4 tomatoes",
+      "1 red onion",
+      "200 g feta cheese",
+      "1/2 cup Kalamata olives"
+    ],
+    "preparing_time": "20 min",
+    "calories": "220 calories"
+  }
+]
