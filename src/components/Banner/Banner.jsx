@@ -1,20 +1,26 @@
-import img from "../../assets/image1.jpg";
+import img from "../../assets/image2.jpg";
 const Banner = () => {
   return (
     <>
-      <div>
-        <img className="hero  h-[80vh]" src={img} />
-        <div className="hero-overlay "></div>
+      <div className="mb-20">
+        <img className="hero  h-[80vh] rounded-lg" src={img} />
+        <div className="hero-overlay"></div>
         <div className=" absolute inset-0 flex justify-center items-center text-center text-neutral-content">
-          <div className="max-w-md  ">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+          <div className=" ">
+            {/* max-w-md  */}
+            <h1 className="mb-5 text-6xl font-bold	tracking-wide	leading-normal	 text-white">
+              Discover an exceptional cooking <br /> class tailored for you!
+            </h1>
+            <p className="my-10 text-xl text-gray-300 leading-relaxed		">
+              You can easily save the nutrition label by saving the provided
+              embed code. Once you've finalized your ingredients
+              <br /> and servings click or tap "embed this label," located under
+              the nutrition label
             </p>
-            <button className="btn btn-primary">Get Started</button>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn mr-8 rounded-full">Explore Now</button>
+            <button className="btn btn-outline rounded-full text-white">
+              Our Feedback
+            </button>
           </div>
         </div>
       </div>
