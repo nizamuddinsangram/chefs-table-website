@@ -17,8 +17,10 @@ const Banner = () => {
               <br /> and servings click or tap "embed this label," located under
               the nutrition label
             </p>
-            <button className="btn mr-8 rounded-full">Explore Now</button>
-            <button className="btn btn-outline rounded-full text-white">
+            <button className="btn mr-8 rounded-full bg-cyan-400	btn-outline">
+              Explore Now
+            </button>
+            <button className="btn btn-outline border-cyan-600 rounded-full text-white">
               Our Feedback
             </button>
           </div>

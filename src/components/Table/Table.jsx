@@ -17,8 +17,8 @@ const Table = ({
             <tr className="text-lg text-gray-400">
               <th></th>
               <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
+              <th>TIme</th>
+              <th>Calories</th>
               <th></th>
             </tr>
           </thead>
@@ -60,8 +60,8 @@ const Table = ({
               <tr className="text-lg text-gray-400">
                 <th></th>
                 <th>Name</th>
-                <th>Job</th>
-                <th>Favorite Color</th>
+                <th>TIme</th>
+                <th>Calories</th>
               </tr>
             </thead>
             <tbody>

@@ -1,6 +1,9 @@
+import { CiFaceMeh } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
+
 const Header = () => {
   return (
-    <div className="mb-8">
+    <div className="my-6">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -22,7 +25,7 @@ const Header = () => {
             </div>
             <ul
               tabIndex="0"
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="text-xl menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <a>Home</a>
@@ -39,10 +42,10 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Recipe Calories</a>
+          <a className="btn btn-ghost text-2xl font-black">Recipe Calories</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-lg font-medium	">
             <li>
               <a>Home</a>
             </li>
@@ -59,13 +62,13 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="px-2 py-1 mr-2 border border-gray-400 rounded-lg"
-          />
-          <i className="fa-duotone fa-user"></i>
-          <a className="btn">Button</a>
+          <label className="input  input-bordered flex items-center gap-2 rounded-full">
+            <FaSearch />
+
+            <input type="text" placeholder="Search..." className="grow " />
+          </label>
+
+          <CiFaceMeh className="bg-green-300 ml-4 text-5xl rounded-full" />
         </div>
       </div>
     </div>
