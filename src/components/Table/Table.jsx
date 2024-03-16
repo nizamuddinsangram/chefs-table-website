@@ -17,7 +17,7 @@ const Table = ({
             <tr className="text-lg text-gray-400">
               <th></th>
               <th>Name</th>
-              <th>TIme</th>
+              <th>Time</th>
               <th>Calories</th>
               <th></th>
             </tr>
@@ -54,7 +54,7 @@ const Table = ({
               <tr className="text-lg text-gray-400">
                 <th></th>
                 <th>Name</th>
-                <th>TIme</th>
+                <th>Time</th>
                 <th>Calories</th>
               </tr>
             </thead>
