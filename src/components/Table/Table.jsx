@@ -43,12 +43,6 @@ const Table = ({
       </div>
       {/* comment */}
       <div>
-        {/* <p className="text-center">
-          Current cooking: 0<span>{count}</span>
-          {currentCooking.map((item, index) => (
-            <span key={index}>{item.recipe_name}, </span>
-          ))}
-        </p> */}
         <p className="mt-8 mb-4 text-2xl   font-bold">
           Current cooking: 0<span>{count}</span>
         </p>
@@ -82,11 +76,3 @@ const Table = ({
 };
 
 export default Table;
-{
-  /* <tr className="bg-base-200">
-<th>1</th>
-<td>Cy Ganderton</td>
-<td>Quality Control Specialist</td>
-<td>Blue</td>
-</tr> */
-}

@@ -80,6 +80,3 @@ function App() {
 }
 
 export default App;
-// {products.map((product) => (
-//   <Table product={product} key={product.recipe_id}></Table>
-// ))}
