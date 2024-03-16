@@ -12,7 +12,7 @@ function App() {
   const [wantToCookCount, setWantToCookCount] = useState(0);
   const [count, setCount] = useState(0);
   useEffect(() => {
-    fetch("../public/data.json")
+    fetch("../data.json")
       .then((res) => res.json())
       .then((data) => setCarts(data));
   }, []);
