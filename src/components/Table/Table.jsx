@@ -1,8 +1,8 @@
-const Table = ({ products }) => {
+const Table = ({ cooks, wantToCookCount, handlePreparing, currentCooking }) => {
   return (
     <>
       <p>
-        Want to Cook: <span>{index + 1}</span>
+        Want to Cook: <span>{wantToCookCount}</span>
       </p>
       <div className="overflow-x-auto">
         <table className="table">
@@ -16,17 +16,31 @@ const Table = ({ products }) => {
             </tr>
           </thead>
           <tbody>
-            {products.map((product, index) => (
+            {cooks.map((cook, index) => (
               <tr key={index} className="bg-base-200">
                 <th>{index + 1}</th>
-                <td>{product.recipe_name}</td>
-                <td>{product.preparing_time}</td>
-                <td>{product.calories}</td>
-                <td className="btn bg-red-400">Pending</td>
+                <td>{cook.recipe_name}</td>
+                <td>{cook.preparing_time}</td>
+                <td>{cook.calories}</td>
+                <td
+                  onClick={() => handlePreparing(cook.recipe_id)}
+                  className="btn bg-red-400"
+                >
+                  Pending
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
+      </div>
+      {/* comment */}
+      <div>
+        <p className="text-center">
+          Current cooking: 0<span>0</span>
+          {currentCooking.map((item, index) => (
+            <span key={index}>{item.recipe_name}, </span>
+          ))}
+        </p>
       </div>
     </>
   );
