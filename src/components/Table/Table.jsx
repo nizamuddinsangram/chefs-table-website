@@ -7,13 +7,14 @@ const Table = ({
 }) => {
   return (
     <>
-      <p>
+      <p className="text-2xl  my-4 font-bold	">
         Want to Cook: <span>{wantToCookCount}</span>
       </p>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <hr className="w-1/2 mx-auto my-4 " />
+      <div className="overflow-x-auto px-6">
+        <table className="table px-10">
           <thead>
-            <tr>
+            <tr className="text-lg text-gray-400">
               <th></th>
               <th>Name</th>
               <th>Job</th>
@@ -21,10 +22,11 @@ const Table = ({
               <th></th>
             </tr>
           </thead>
-          <tbody>
+
+          <tbody className="bg-gray-300">
             {cooks.map((cook, index) => (
-              <tr key={index} className="bg-base-200">
-                <th>{index + 1}</th>
+              <tr key={index} className="bg-base-200 p-6 mb-2 text-xl">
+                <th className="p-6 mb-2 text-xl">{index + 1}</th>
                 <td>{cook.recipe_name}</td>
                 <td>{cook.preparing_time}</td>
                 <td>{cook.calories}</td>
@@ -47,13 +49,15 @@ const Table = ({
             <span key={index}>{item.recipe_name}, </span>
           ))}
         </p> */}
-        <p>
+        <p className="mt-8 mb-4 text-2xl   font-bold">
           Current cooking: 0<span>{count}</span>
         </p>
-        <div className="overflow-x-auto">
-          <table className="table">
+        <hr className="w-1/2 mx-auto my-4 " />
+
+        <div className="overflow-x-auto px-10">
+          <table className="table px-10">
             <thead>
-              <tr>
+              <tr className="text-lg text-gray-400">
                 <th></th>
                 <th>Name</th>
                 <th>Job</th>
@@ -62,8 +66,8 @@ const Table = ({
             </thead>
             <tbody>
               {currentCooking.map((item, index) => (
-                <tr key={index} className="bg-base-200">
-                  <th>{index + 1}</th>
+                <tr key={index} className=" bg-base-200 p-6 mb-2 text-xl">
+                  <th className="p-6 mb-2 text-xl">{index + 1}</th>
                   <td>{item.recipe_name}</td>
                   <td>{item.preparing_time}</td>
                   <td>{item.calories}</td>

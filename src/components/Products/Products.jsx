@@ -1,3 +1,5 @@
+import { CiStopwatch } from "react-icons/ci";
+import { FaFire } from "react-icons/fa6";
 const Products = ({ cart, handleAddProduct }) => {
   const {
     calories,
@@ -18,16 +20,29 @@ const Products = ({ cart, handleAddProduct }) => {
           />
         </figure>
         <div className="card-body  text-start	">
-          <h2 className="card-title">{recipe_name}</h2>
-          <p>{short_description}</p>
-          <div>
-            {ingredients.map((ingredient, i) => (
+          <h2 className="text-2xl font-bold	">{recipe_name}</h2>
+          <p className="text-lg font-normal	 	 text-gray-500">
+            {short_description}
+          </p>
+          <hr className="my-2" />
+          <div className="text-lg font-normal		 text-gray-500">
+            <p className="text-xl font-bold">
+              Ingredients: {ingredients.length}
+            </p>
+            {ingredients.slice(0, 3).map((ingredient, i) => (
               <li key={i}>{ingredient}</li>
             ))}
           </div>
+          <hr className="my-2" />
           <div className="flex">
-            <p>{preparing_time}</p>
-            <p>{calories}</p>
+            <p className="flex items-center text-lg font-normal		 text-gray-500">
+              <CiStopwatch className="mr-2" />
+              {preparing_time}
+            </p>
+            <p className="flex items-center text-lg font-normal		 text-gray-500">
+              <FaFire className="mr-2" />
+              {calories}
+            </p>
           </div>
           <div className="card-actions">
             <button

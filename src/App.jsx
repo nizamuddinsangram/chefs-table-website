@@ -64,7 +64,7 @@ function App() {
               ></Products>
             ))}
           </div>
-          <div className="w-2/5 bg-green-200 mt-10">
+          <div className="w-2/5  mt-10">
             <Table
               handlePreparing={handlePreparing}
               wantToCookCount={wantToCookCount}

@@ -2,7 +2,7 @@ import img from "../../assets/image2.jpg";
 const Banner = () => {
   return (
     <>
-      <div className="mb-20">
+      <div className="mb-20  ">
         <img className="hero  h-[80vh] rounded-lg" src={img} />
         <div className="hero-overlay"></div>
         <div className=" absolute inset-0 flex justify-center items-center text-center text-neutral-content">
